@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="animate.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<style type="text/css">
+		ul,li,ol{
+			list-style: none;
+		}
+		*{
+			padding:0;
+			margin: 0;
+		}
+		.head{
+			height: 25px;
+			width: 1280px;
+			margin:0 auto;
+		}
+		.head1{
+			height: 25px;
+			width: 460px;
+			float: left;
+
+		}
+		.head2{
+			height: 25px;
+			width: 720px;
+			float: left;
+		}
+		.font1{
+			color: #9a9791;
+			font-size: 14px;
+			padding-top: 10px;
+		}
+		.nav5{
+			height: 25px;
+			width: 820px;
+		}
+		.nav5 li{
+			margin-top: 10px;
+			margin-left: 17px;
+			float: left;
+			color: #9a9791;
+			font-size: 14px;
+		}
+		.head3{
+			height: 80px;
+			width: 1280px;
+			margin:0 auto;
+		}
+		.head3img{
+			float: left;
+			margin-top: 22px; 
+		}
+		.head4{
+			margin-top: 30px;
+			margin-left: 110px;
+			float: left;
+		}
+		.head5{
+			float: left;
+			margin-top: 30px;
+			margin-left: 90px;
+		}
+		.head6{
+			height: 25px;
+			width: 800px;
+			margin:0 auto;
+
+		}
+		.end{
+			height: 200px;
+			width: 1280px;
+			margin:0 auto;
+		}
+		.end0{
+			float: left;
+		}
+		.end1{
+			float: left;
+			margin-left: 100px;
+		}
+		.end1 ul{
+			float: left;
+		}
+		.end1 li{
+			line-height: 30px;
+			font-size: 14px;
+			color:  #9a9791;
+		}
+		.endul{
+			margin-left: 100px;
+		}
+		.endfont{
+			font-size: 16px;
+			color:#000000;
+		}
+		.end2{
+			float: left;
+			margin-left: 150px;
+		}
+		.end11{
+			height: 150px;
+			width: 1180px;
+			margin: 0 auto;
+		}
+		.endlist img{
+			margin-left: 200px;
+		}
+		.least{
+			float: left;
+			margin-top: 13px;
+		}
+		.least1{
+			float: left;
+			margin-left: 160px;
+			margin-top: 13px;
+		}
+		.leastfont{
+			margin-left: 450px;
+			font-size: 14px;
+			color: #9a9791;
+		}
+		.midfirst{
+			height: 40px;
+			width: 1280px;
+			margin:0 auto;
+		}
+		.tianchong{
+			background-color: #ff4d04;
+			width: 170px;
+			height: 40px;
+			float: left;
+		}
+		.midfont1{
+			margin-top: 13px;
+			margin-left: 35px;
+			color: white;
+		}
+		.midlist{
+			width: 950px;
+			float: left;
+		}
+		.ex{
+			float: left;
+			margin-left: 50px;
+			margin-top: 15px;
+		}
+		.ex1{
+			float: left;
+			margin-left: 50px;
+			margin-top: 10px;
+		}
+		.mid{
+			width: 1280px;
+			height: 550px;
+			margin: 0 auto;
+		}
+		.midleft{
+			width: 170px;
+			height: 550px;
+			float: left;
+		}
+		.midleftfirst{
+			width: 25px;
+			height: 420px;
+			float: left;
+			background-color: #4c4c4a;
+		}
+		.midleftfirst p{
+			color: #af4c4a;
+			margin-top: 10px;
+			margin-left: 5px;
+		}
+		.midleftsecond{
+			width: 145px;
+			height: 420px;
+			float: left;
+		}
+		.midleftsecond ul{
+			float: left;
+			font-size: 12px;
+		}
+		.midleftsecond li{
+			margin-left: 12px;
+			margin-top: 18px;
+		}
+		.midleftthird{
+			width: 170px;
+			height: 120px;
+			float: left;
+		}
+		.midleftthird ul{
+			float: left;
+		} 
+		.ai0 li{
+			margin-top: 15px;
+			margin-left: 9px;
+		}
+		.ai1 li{
+			font-size: 14px;
+			margin-top: 22px;
+			margin-left: 8px;
+		}
+		.midmid{
+			width: 800px;
+			height: 365px;
+			float: left;
+			margin-left: 10px;
+		}
+		.midmiddown{
+			width: 800px;
+			height: 185px;
+		}
+		.midmiddown img{
+			display: block;
+			float: left;
+		}
+		.midright{
+			height: 550px;
+			width: 210px;
+			float: left;
+		}
+		.midrightover{
+			height: 365px;
+			width: 210px;
+		}
+		.midrightdown{
+			height: 185px;
+			width: 210px;
+		}
+		.midrightover a{
+			position: absolute;
+			color: #ff4d04;
+			float: left;
+			margin-left: 18px;
+			font-size: 12px;
+		}
+		.midrightover1{
+			height: 43px;
+		}
+		.midrightx{
+			position: relative;
+			overflow: hidden;
+			width: 100%;
+			height: 330px;
+		}
+		.one{
+			margin-top: 20px;
+			margin-left: 20px;
+		}
+	</style>
+</head>
+<body>
+	<!-- 首页的上部导航栏以及搜索栏	 -->	
+<div class="headx" style="background-color: white;z-index: 1;">
+	<div class="head">
+		<div class="head1">
+			<p class="font1">帮5买，享帮帮</p>
+		</div>
+		<div class="head2">
+			<ul class="nav5">
+				<li><img src="任务所需小图/img/qq.jpg"></li>
+				<li><img src="任务所需小图/img/wx.jpg"></li>
+				<li><img src="任务所需小图/img/wb.jpg"></li>
+				<li>登录</li>
+				<li>注册</li>
+				<li><img src="任务所需小图/img/ms.jpg">消息</li>
+				<li><img src="任务所需小图/img/dingdan.jpg">我的订单</li>
+				<li>我的收藏</li>
+				<li>帮钻兑换</li>
+				<li><img src="任务所需小图/img/tp-my-phone.png">手机版</li>
+				<li>帮5淘</li>
+				<li>客户服务</li>
+				<li><img src="任务所需小图/img/gouwuche.jpg">购物车</li>
+			</ul>
+		</div>
+	</div>
+	<div class="head3">
+		<img src="任务所需小图/img/logo_03.jpg" class="head3img">
+		<div class="head4">
+			<input type="text" name="" value="输入商品网址或关键词，直通全网，快速帮5购" style="width: 503px; height: 38px; border-color: #fe6c00;float: left;">	
+			<div style="width: 84px; height:32px; background-color:#fe6c00;float: left;color: white;text-align: center; padding-top: 10px;">搜全网</div>
+		</div>
+		<div class="head5">
+			<img src="任务所需小图/img/head1.jpg">
+		</div>
+	</div>
+	<div class="head6">
+		<img src="任务所需小图/img/qiepian.jpg">
+	</div>
+</div>
+	<!-- 上部结束 -->
+	<!-- 中部开始 -->
+	<!-- 中部的上部导航栏 -->
+	<div class="midfirst">
+		<div class="tianchong">
+			<p class="midfont1">全部商品分类</p>
+		</div>
+		<div class="midlist">
+			<ul>
+				<li class="ex">帮5赚</li>
+				<li class="ex">帮韩品</li>
+				<li class="ex">超划算</li>
+				<li class="ex">品牌货栈</li>
+				<li class="ex">韩国馆</li>
+				<li class="ex">帮社区</li>
+				<li class="ex1">1元兑奖<img src="任务所需小图/img/hot.gif"></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 中部的上部导航栏结束 -->
+	<!-- 中部开始 -->
+	<div class="mid">
+		<!-- 分左中右三部分 -->
+		<!-- 左部 -->
+		<div class="midleft">
+			<div class="midleftfirst">
+				<p>当</p>
+				<p>前</p>
+				<p>搜</p>
+				<p>索</p>
+				<p>电</p>
+				<p>商</p>
+				<p>全</p>
+				<p>网</p>
+			</div>
+			<div class="midleftsecond">
+				<ul>
+					<li>手机</li>
+					<li>电脑</li>
+					<li>家电</li>
+					<li>园艺</li>
+					<li>彩妆</li>
+					<li>男装</li>
+					<li>女包</li>
+					<li>运动</li>
+					<li>儿童</li>
+					<li>乐器</li>
+					<li>保健</li>
+					<li>果蔬</li>
+					<li>文艺</li>
+				</ul>
+				<ul>
+					<li>数码</li>
+					<li>网络</li>
+					<li>厨卫</li>
+					<li>家具</li>
+					<li>面部</li>
+					<li>女装</li>
+					<li>男包</li>
+					<li>户外</li>
+					<li>婴儿</li>
+					<li>家宠</li>
+					<li>理疗</li>
+					<li>礼品</li>
+					<li>生活</li>
+				</ul>
+				<ul>
+					<li>影音</li>
+					<li>办公</li>
+					<li>生活</li>
+					<li>家纺</li>
+					<li>身体</li>
+					<li>内衣</li>
+					<li>女鞋</li>
+					<li>装备</li>
+					<li>食品</li>
+					<li>收藏</li>
+					<li>药品</li>
+					<li>粮油</li>
+					<li>科技</li>
+				</ul>
+				<ul>
+					<li>配件</li>
+					<li>打印</li>
+					<li>个户</li>
+					<li>家族</li>
+					<li>香水</li>
+					<li>其他</li>
+					<li>男鞋</li>
+					<li>服饰</li>
+					<li>玩具</li>
+					<li>鲜花</li>
+					<li>眼镜</li>
+					<li>特产</li>
+					<li>教育</li>
+				</ul>
+			</div>
+			<div class="midleftthird">
+				<ul class="ai0">
+					<li><img src="任务所需小图/img/dd_03.jpg"></li>
+					<li><img src="任务所需小图/img/dd_06.jpg"></li>
+					<li><img src="任务所需小图/img/dd_08.jpg"></li>
+				</ul>
+				<ul class="ai1">
+					<li>什么是帮5购</li>
+					<li>帮5购提供什么服务</li>
+					<li>如何开通帮5购服务</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 左部结束 -->
+		<!-- 中部开始 -->
+		<div class="midmid">
+			<div class="midmidover" id = "midmidover">
+				<div class="slider" id="slider">
+					<div class="slide"><img src="任务所需小图/img/bann6.png" alt=""></div>
+					<div class="slide"><img src="任务所需小图/img/bann1.jpeg" alt=""></div>
+					<div class="slide"><img src="任务所需小图/img/bann2.jpeg" alt=""></div>
+					<div class="slide"><img src="任务所需小图/img/bann3.jpeg" alt=""></div>
+					<div class="slide"><img src="任务所需小图/img/bann4.jpeg" alt=""></div>
+					<div class="slide"><img src="任务所需小图/img/bann5.jpeg" alt=""></div>
+					<div class="slide"><img src="任务所需小图/img/bann6.png" alt=""></div>
+					<div class="slide"><img src="任务所需小图/img/bann1.jpeg" alt=""></div>
+				</div>
+				<div id="left" style="position: absolute;left:10px;background: url(任务所需小图/img/btn.gif)-3px 115px;top: 160px;cursor: pointer;"></div>
+				<div id="right" style="position:absolute;right: 10px;background: url(任务所需小图/img/btn.gif) -3px 55px;top: 160px;cursor: pointer;"></div>
+				<ul class="nav" id="nav">
+					<li class="active" style="text-align:center;">1</li>
+					<li style="text-align: center">2</li>
+					<li style="text-align: center;">3</li>
+					<li style="text-align: center;">4</li>
+					<li style="text-align: center;">5</li>
+					<li style="text-align: center;">6</li>
+				</ul>
+			</div>
+			<div class="midmiddown">
+				<img src="任务所需小图/img/1(1).jpg">
+				<img src="任务所需小图/img/2.jpg">
+				<img src="任务所需小图/img/3(1).png">
+				<a href="大二上大作业2.html"><img src="任务所需小图/img/qqq.png"></a>
+			</div>
+		</div>
+		<!-- 中部结束 -->
+		<!-- 右部开始 -->
+		<div class="midright">
+			<div class="midrightover">
+				<div class="midrightover1">
+					<img src="任务所需小图/img/ico-notice.png" style="float: left; margin-left: 18px;">
+					<p style="float: left; margin-left: 18px;">帮帮快讯</p>
+					<img src="任务所需小图/img/jiantou.jpg" style="float: right;margin-right: 16px;" class="service">
+				</div>
+				<div class="midrightx">
+					<a href="" class="service" style="top:0px;">[公告]帮购及VIP服务调整1</a>
+					<a href="" class="service" style="top:30px;">[公告]帮购及VIP服务调整2</a>
+					<a href="" class="service" style="top:60px;">[公告]帮购及VIP服务调整3</a>
+					<a href="" class="service" style="top:90px;">[公告]帮购及VIP服务调整4</a>
+					<a href="" class="service" style="top:120px;">[公告]帮购及VIP服务调整5</a>
+					<a href="" class="service" style="top:150px;">[公告]帮购及VIP服务调整6</a>
+					<a href="" class="service" style="top:180px;">[公告]帮购及VIP服务调整7</a>
+					<a href="" class="service" style="top:210px;">[公告]帮购及VIP服务调整8</a>
+					<a href="" class="service" style="top:240px;">[公告]帮购及VIP服务调整9</a>
+					<a href="" class="service" style="top:270px;">[公告]帮购及VIP服务调整10</a>
+					<a href="" class="service" style="top:300px;">[公告]帮购及VIP服务调整11</a>
+					<a href="" class="service" style="top:330px;">[公告]帮购及VIP服务调整12</a>
+					<a href="" class="service" style="top:360px;">[公告]帮购及VIP服务调整13</a>
+				</div>	
+			</div>
+			<div class="midrightdown">
+				<div class="one">
+					<img src="任务所需小图/img/phone.png" style="float: left;">
+					<p style="float: left;font-size: 14px;">话费充值</p>
+					<p style="float: left;font-size: 14px;color:#ff4d04; ">(可使用超级绑钻)</p>
+				</div>
+				<input type="text" name="" value="请输入手机号" style="margin-top: 10px;width: 124px;">
+				<select style="margin-top: 6px;margin-left: 28px;width: 60px;float: left" id="myselect1" >
+					<option value="10" onclick="judge()">10</option>
+					<option value="30" onclick = "judge1()">30</option>
+					<option value="50" onclick="judge2()">50</option>
+					<option value="100" onchange="judge3()">100</option>
+				</select>
+				<span id = "span1" style="float: left;margin-left: 15px;margin-top:5px;color:#ff4d04; "></span>
+				<button style="width: 180px; height:28px; background-color:#fe6c00; color: white;margin-left: 20px;">充值</button>
+				
+				</span>
+			</div>
+		</div>
+	</div>
+	<!-- end页面底部 -->
+	<div class="end">
+		<div class="end0"><img src="任务所需小图/img/loginB.jpg"></div>
+		<div class="end1">
+			<ul>
+				<li class="endfont">购物指南</li>
+				<li>如何下单</li>
+				<li>帮5购流程</li>
+				<li>订单查询</li>
+				<li>物流配送</li>
+			</ul>
+			<ul class="endul">
+				<li class="endfont">支付相关</li>
+				<li>支付方式</li>
+				<li>安全设置</li>
+				<li>账户信息</li>
+			</ul>
+			<ul class="endul">
+				<li class="endfont">售后服务</li>
+				<li>取消订单</li>
+				<li>申请售后</li>
+				<li>退货流程</li>
+				<li>退款相关</li>
+			</ul class = "endul">
+			<ul>
+				<li class="endfont">VIP服务</li>
+				<li>VIP优惠</li>
+				<li>如何成为VIP</li>
+				<li>超级帮钻</li>
+			</ul>
+			<ul class="endul">
+				<li class="endfont">帮韩品</li>
+				<li>韩国正品</li>
+				<li>闪电发货</li>
+				<li>帮韩品售后</li>
+			</ul>
+		</div>	
+		<div class="end2">
+			<img src="任务所需小图/img/erweima.jpg">
+		</div>
+	</div>
+	<div class="end11">
+		<div class="endlist">
+			<img src="任务所需小图/img/noidea.jpg">
+		</div>
+		<img src="任务所需小图/img/ai_03.jpg">
+		<p class="leastfont">sp3101151410301755</p>
+		<img src="任务所需小图/img/bo1.gif" class="least1">
+		<img src="任务所需小图/img/bo2.png" class="least">
+		<img src="任务所需小图/img/bo3.gif" class="least">
+		<img src="任务所需小图/img/bo4.png" class="least">
+		<img src="任务所需小图/img/bo5.png" class="least">
+		<img src="任务所需小图/img/bo6.png" class="least">
+		<img src="任务所需小图/img/bo7.png" class="least">
+	</div>
+</body>
+<script type="text/javascript">
+	// 轮播图
+	var box = document.getElementById('midmidover');
+	var oNavlist = document.getElementById('nav').children;
+	var slider = document.getElementById('slider');
+	var left = document.getElementById('left');
+	var right = document.getElementById('right');
+	var index = 1;
+	var timer;
+	var isMoving = false;
+	box.onmouseover = function(){
+		animate(left,{opacity:100})
+		animate(right,{opacity:100})
+		clearInterval(timer)
+	}
+	box.onmouseout = function(){
+		animate(left,{opacity:0})
+		animate(right,{opacity:0})
+		timer = setInterval(next, 3000);
+	}
+	right.onclick = next;
+	left.onclick = prev;
+	for( var i=0; i<oNavlist.length; i++ ){
+		(function(i){
+			oNavlist[i].onclick = function(){
+				index = i+1;
+				navmove();
+				animate(slider,{left:-800*index});
+			}
+		})(i);
+	}
+	function next(){
+		if(isMoving){
+			return;
+		}
+		isMoving = true;
+		index++;
+		navmove();
+		animate(slider,{left:-800*index},function(){
+			if(index==7){
+				slider.style.left = '-800px';
+				index = 1;
+			}
+			isMoving = false;
+		});
+	}
+	function prev(){
+		if(isMoving){
+			return;
+		}
+		isMoving = true;
+		index--;
+		navmove();
+		animate(slider,{left:-800*index},function(){
+			if(index==0){
+				slider.style.left = '-4000px';
+				index = 6;
+			}
+			isMoving = false;
+		});
+	}
+	function navmove(){
+		for( var i=0; i<oNavlist.length; i++ ){
+			oNavlist[i].className = "";
+		}
+		if(index >6 ){
+			oNavlist[0].className = "active";
+		}else if(index<=0){
+			oNavlist[5].className = "active";
+		}else {
+			oNavlist[index-1].className = "active";
+		}
+	}
+	timer = setInterval(next, 3000);
+	// 滚动公告
+	var midrightover2 = document.getElementsByClassName('midrightx')[0];
+	var service = document.getElementsByClassName("service");
+	console.log(midrightover2);
+	var intervalId;
+	setTime();
+	midrightover2.onmouseout = function(){
+		setTime();
+	}
+	midrightover2.onmouseover = function(){
+		clearTime();
+	}
+	function setTime(){
+		intervalId = window.setInterval(scrol,1);
+	}
+	function clearTime(){
+		window.clearInterval(intervalId);
+	}
+	function scrol(){
+		for(var i = 1;i<14;++i){
+			service[i].style.top = parseFloat(service[i].style.top)-0.1+'px';
+		}	
+		for(var i = 1;i<14;++i){
+			if(parseInt(service[i].style.top)==0){
+				service[i].style.top = 360+'px';
+			}
+		}
+	}
+	// 下拉列表
+
+	var myselect = document.getElementById("myselect1");
+	var index = myselect.selectedIndex;
+	var span1 = document.getElementById("span1");
+	span1.innerHTML = "¥"+myselect.options[index].value;
+
+
+	//顶部悬浮
+	window.onload = function(){
+		var cover = document.getElementsByClassName("headx")[0];
+		window.onscroll = function(){
+			var st = document.documentElement.scrollTop||document.body.scrollTop;
+			if(st>180){
+				cover.style.position = "fixed";
+			}else{
+				cover.style.position = "static";
+			}
+		}
+	}
+</script>
+</html>
